@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 @Slf4j
 public class ContactManagerTest {
-  private static ContactManager contactManager = new ContactManager();
+  private static final ContactManager contactManager = new ContactManager();
 
   @BeforeAll
   static void addDummyContacts() {
